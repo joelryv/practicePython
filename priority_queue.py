@@ -1,6 +1,6 @@
 import heapq
 
-class PrioritQueue:
+class PriorityQueue:
     def __init__(self):
         self.elements = []
 
@@ -17,7 +17,7 @@ class PrioritQueue:
         return str(self.elements)
 
 if __name__ == "__main__":
-    pq = PrioritQueue()
+    pq = PriorityQueue()
     print(pq)
     print(pq.is_empty())
 
