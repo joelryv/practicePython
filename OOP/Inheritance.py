@@ -52,3 +52,12 @@ mgr_1 = Manager('Sr.', 'Burns', '100000', [dev_1])
 mgr_1.print_emps()
 mgr_1.add_emp(dev_2)
 mgr_1.print_emps()
+
+# El método isinstance nos dice si un objeto es una instancia de una clase
+print(isinstance(mgr_1, Manager)) # True
+print(isinstance(mgr_1, Employee)) # True
+print(isinstance(mgr_1, Developer)) # False
+
+# El método issubclass nos dice si una clase hereda de otra
+print(issubclass(Developer, Employee)) # True
+print(issubclass(Developer, Manager)) # False
