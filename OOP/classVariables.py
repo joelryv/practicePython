@@ -6,8 +6,10 @@ class Empleado:
     numero_empleados = 0
 
     def __init__(self, nombre, apellido):
+        # Variables de instancia
         self.nombre = nombre
         self.apellido = apellido
+        
         # Se modifica el numero de empleados que hay globalmente
         Empleado.numero_empleados += 1
 
